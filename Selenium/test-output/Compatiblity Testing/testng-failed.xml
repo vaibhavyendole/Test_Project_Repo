@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Compatiblity Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="TestNGj_Comaptibility_Testing.B_MultibrowserTesting_With_parallel">
+        <methods>
+          <include name="TC" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGj_Comaptibility_Testing.B_MultibrowserTesting_With_parallel -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="TestNGj_Comaptibility_Testing.B_MultibrowserTesting_With_parallel">
+        <methods>
+          <include name="TC" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGj_Comaptibility_Testing.B_MultibrowserTesting_With_parallel -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="TestNGj_Comaptibility_Testing.B_MultibrowserTesting_With_parallel">
+        <methods>
+          <include name="TC" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGj_Comaptibility_Testing.B_MultibrowserTesting_With_parallel -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Compatiblity Testing] -->
